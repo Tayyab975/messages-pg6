@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Messages</title>
+    <link rel="stylesheet" href="styles.css/messages.css">
+    
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans+TC:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,900;1,900&family=Sigmar&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        re:connect
+    </header>
+    
+    <main>
+        <div class="grid-container">
+            <div class="item1">
+                <div class="pfp"></div>
+                <nav>
+                    <ul>
+                        <li><a href="">Lost and Found</a></li>
+                        <li class="active">Messages</li>
+                        <li><a href="">Notification</a></li>
+                        <li><a href="">Settings</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="item2">
+
+                <div class="item2-header">
+                    <h3 class="h3-1">Messages</h3>
+
+                    <button id="adduser" class="adduser-button">
+                        <img src="icons/add-user.png" class="adduser-icon" alt="adduser-icon">
+                    </button>
+                </div>
+
+                <div class="tabs">
+                    <button class="groups-button tabs-active">Groups</button>
+                    <button class="private-button">Private</button>
+                </div>
+                <div class="groups-list">
+                    <div class="announcement">
+                        <div class="icon"></div>
+                        <div class="content">
+                            <h3>Announcement</h3>
+                            <p>Text text text text text text text text text text text </p>
+                        </div>
+                        <span class="timestamp">Today</span>
+                    </div>
+                    <div class="announcement">
+                        <div class="icon"></div>
+                        <div class="content">
+                            <h3>Announcement</h3>
+                            <p>Text text text text text text text text text text text </p>
+                        </div>
+                        <span class="timestamp">Today</span>
+                    </div>
+                    <div class="announcement">
+                        <div class="icon"></div>
+                        <div class="content">
+                            <h3>Announcement</h3>
+                            <p>Text text text text text text text text text text text </p>
+                        </div>
+                        <span class="timestamp">Today</span>
+                    </div>
+                    <div class="announcement">
+                        <div class="icon"></div>
+                        <div class="content">
+                            <h3>Announcement</h3>
+                            <p>Text text text text text text text text text text text </p>
+                        </div>
+                        <span class="timestamp">Today</span>
+                    </div>
+                </div>
+                
+                <!-- Privates List -->
+
+                <div class="privates-list">
+                    <button class="new_chat_btn">New Chat</button>
+                    <div class="chats">
+                        <div class="content">
+                            <h3>Jonell</h3>
+                            <p>Text text text text text text text text text text text </p>
+                        </div>
+                        <span class="timestamp ts2">Today</span>
+                    </div>
+                    <div class="chats">
+                        <div class="content">
+                            <h3>Jonell, Mar, Loeri</h3>
+                            <p>Text text text text text text text text text text text </p>
+                        </div>
+                        <span class="timestamp ts2">Today</span>
+                    </div>
+                    <div class="chats">
+                        <div class="content">
+                            <h3>Group 8</h3>
+                            <p>Text text text text text text text text text text text </p>
+                        </div>
+                        <span class="timestamp ts2">Today</span>
+                    </div>
+                    <div class="chats">
+                        <div class="content">
+                            <h3>Jonell</h3>
+                            <p>Text text text text text text text text text text text </p>
+                        </div>
+                        <span class="timestamp ts2">Today</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="item3">
+                <div class="search-box">
+                    <input type="text" placeholder="Search a user">
+                </div>
+            </div>
+        </div>
+        <!-- Modal Window -->
+        <div class="newchat-modal">
+            <!-- Modal Content -->
+            <div class="newchat-modal-content">
+                <div class="modal-search-box">
+                    <img src="icons/search_icon.png" alt="search-icon" class="search-icon">
+                    <input type="text" placeholder="Search a user" class="modal-search-input">
+                </div>
+                <p>Friends</p>
+                <div class="add-friends">
+                    <div class="friend">
+                        <div class="friend-pfp"></div>
+                        <label>Numero Uno<input type="checkbox"></label>
+                    </div>
+                    <div class="friend">
+                        <div class="friend-pfp"></div>
+                        <label>Numero Uno<input type="checkbox"></label>
+                    </div>
+                    <div class="friend">
+                        <div class="friend-pfp"></div>
+                        <label>Numero Uno<input type="checkbox" class="friend-checkbox"></label>
+                    </div>
+                    <div class="friend">
+                        <div class="friend-pfp"></div>
+                        <label>Numero Uno<input type="checkbox"></label>
+                    </div>
+                    <div class="friend">
+                        <div class="friend-pfp"></div>
+                        <label>Numero Uno<input type="checkbox"></label>
+                    </div>
+                </div>
+                <button class="new_chat_btn_modal">New Chat</button>
+            </div>
+        </div>
+    </main>
+    <script src="scripts/private.js"></script>
+</body>
+</html>
